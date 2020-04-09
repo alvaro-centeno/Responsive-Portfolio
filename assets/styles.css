@@ -16,3 +16,42 @@ h1 {
     background-size: cover;
     background-position: center;
 }
+
+.row {
+    margin-bottom: 20px;
+}
+
+[class*="col-"] {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: 1px solid rgb(176, 185, 192);
+}
+
+h3 {
+    text-align: center;
+    color: turquoise;
+    padding-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 600px;
+    padding-right: 20px;
+}
+
+p {
+    padding-bottom: 20px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
