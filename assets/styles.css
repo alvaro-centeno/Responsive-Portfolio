@@ -24,7 +24,6 @@ h1 {
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
-    
 }
 
 .row {
@@ -69,4 +68,8 @@ footer p {
     padding-top: 35px;
     font-size: 20px;
     color: whitesmoke;
+}
+
+.btn {
+    margin-top: 30px;
 }
