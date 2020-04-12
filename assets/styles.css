@@ -1,131 +1,178 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        object-fit: contain;
+    }
+    
+    header{
+        height: 10vh;
+    }
 
+    main {
+        height: 80vh;
+        flex-grow: 1;
 
-h1 {
-    color: whitesmoke;
-}
+    }
 
-.big-banner {
-    background-image: url('../img/retro.png');
-    height: 850px;
-    width: 100%;
-    margin-bottom: 0;
-    background-size: cover;
-    background-position: center; 
-    background-repeat: no-repeat;
-}
+    footer {
+        height: 10vh;
+    }
+    
+    h1 {
+        color: whitesmoke;
+    }
+    
+    .big-banner {
+        background-image: url('../img/retro.png');
+        height: 1000px;
+        width: 100%;
+        margin-bottom: 0;
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat;
+    }
+    
+    .row {
+        margin-bottom: 20px;
+    }
+    
+    [class*="col-"] {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        background-color: white;
+        border: 1px solid rgb(176, 185, 192);
+    }
+    
+    h3 {
+        text-align: center;
+        color: turquoise;
+        padding-bottom: 20px;
+    }
+    
+    .me {
+        display: block;
+        margin: 10px auto;
+        max-width: 600px;
+        padding-right: 20px;
+    }
+    
+    p {
+        padding-bottom: 10px;
+    } 
+    
+    footer {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position:sticky;
+        left: 0;
+        bottom: 10;
+        width: 100%;
+        text-align: center;
+    }
+    
+    footer p {
+        padding-top: 35px;
+        font-size: 20px;
+        color: whitesmoke;
+    }
+    
+    .btn {
+        margin-top: 30px;
+    }
+    
+    .form-group{
+        margin-right: 100px ;
+        margin-left: 100px;
+    }
+    
+    .btn-linkedin {
+        background: #0E76A8;
+        border-radius: 0;
+        color: #fff;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #084461;
+        margin-left: 280px;
+        margin-bottom: 5px;
+    }
+    
+    .btn-linkedin:link, .btn-linkedin:visited {
+        color: #fff;
+    }
+    
+    .btn-linkedin:active, .btn-linkedin:hover {
+        background: #084461;
+        color: #fff;
+    }
+    
+    .btn-git {
+        background: #444444;
+        border-radius: 0;
+        color: #fff;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #444444;
+        margin-left: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .btn-git:link, .btn-git:visited {
+        color: #fff;
+    }
+    
+    .btn-git:active, .btn-git:hover {
+        background: #0a0a0a;
+        color: #fff;
+    }
+    
+    .work{
+        margin-top: 50px;
+        margin-left: 70px;
+        margin-bottom: 100px;
+    }
+    
+    .divided {
+        display: flex;
+        align-items: center;
+      }
+      
+      .divider {
+        flex-grow: 1;
+        border-bottom: 3px solid orange;
+        margin: 5px
+          }
 
-.row {
-    margin-bottom: 20px;
-}
+          .card {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: .25rem;
+        }
 
-[class*="col-"] {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    background-color: white;
-    border: 1px solid rgb(176, 185, 192);
-}
+     .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        }
 
-h3 {
-    text-align: center;
-    color: turquoise;
-    padding-bottom: 20px;
-}
-
-.me {
-    display: block;
-    margin: 10px auto;
-    max-width: 600px;
-    padding-right: 20px;
-}
-
-p {
-    padding-bottom: 10px;
-}
-
-footer {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: absolute;
-    left: 0;
-    height: 90px;
-    bottom: 10;
-    width: 100%;
-    text-align: center;
-}
-
-footer p {
-    padding-top: 35px;
-    font-size: 20px;
-    color: whitesmoke;
-}
-
-.btn {
-    margin-top: 30px;
-}
-
-.form-group{
-    margin-right: 100px ;
-    margin-left: 100px;
-}
-
-.btn-linkedin {
-    background: #0E76A8;
-    border-radius: 0;
-    color: #fff;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #084461;
-    margin-left: 280px;
-    margin-bottom: 5px;
-}
-
-.btn-linkedin:link, .btn-linkedin:visited {
-    color: #fff;
-}
-
-.btn-linkedin:active, .btn-linkedin:hover {
-    background: #084461;
-    color: #fff;
-}
-
-.btn-git {
-    background: #444444;
-    border-radius: 0;
-    color: #fff;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #444444;
-    margin-left: 20px;
-    margin-bottom: 5px;
-}
-
-.btn-git:link, .btn-git:visited {
-    color: #fff;
-}
-
-.btn-git:active, .btn-git:hover {
-    background: #0a0a0a;
-    color: #fff;
-}
-
-.work{
-    margin-top: 50px;
-    margin-left: 70px;
-    margin-bottom: 100px;
-}
-
-.divided {
-    display: flex;
-    align-items: center;
-  }
-  
-  .divider {
-    flex-grow: 1;
-    border-bottom: 3px solid orange;
-    margin: 5px
-  }
+/* @media screen and (min-width: 769px){
+ main{
+     height: 80vh;
+                overflow: hidden;
+            }
+            header{
+                height: 10vh;
+            }
+            footer{
+                height: 10vh;
+            } */
