@@ -93,8 +93,8 @@
         border-width: 1px;
         border-style: solid;
         border-color: #084461;
-        margin-left: 280px;
-        margin-bottom: 5px;
+        /* margin-left: 280px;
+        margin-bottom: 5px; */
     }
     
     .btn-linkedin:link, .btn-linkedin:visited {
@@ -113,8 +113,8 @@
         border-width: 1px;
         border-style: solid;
         border-color: #444444;
-        margin-left: 20px;
-        margin-bottom: 5px;
+        /* margin-left: 20px;
+        margin-bottom: 5px; */
     }
     
     .btn-git:link, .btn-git:visited {
@@ -129,7 +129,7 @@
     .work{
         margin-top: 50px;
         margin-left: 70px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     
     .divided {
@@ -141,4 +141,30 @@
         flex-grow: 1;
         border-bottom: 3px solid orange;
         margin: 5px
+          }
+
+          @media only screen and (max-width: 600px) {
+            .work {
+                margin-top: 50px;
+                margin-left: 40px;
+                margin-right: 20px;
+                margin-bottom: 50px;
+            }
+
+            #portfolio.big-banner {
+                background-image: url('../img/retro.png');
+                height: 1800px;
+                width: 100%;
+                margin-bottom: 0;
+                background-size: cover;
+                background-position: center; 
+                background-repeat: no-repeat;
+            }
+          }
+
+          @media only screen and (max-width: 768px) {
+           
+            [class*="col-"] {
+              width: 100%;
+            }
           }
