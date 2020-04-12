@@ -6,19 +6,6 @@
         object-fit: contain;
     }
     
-    header{
-        height: 10vh;
-    }
-
-    main {
-        height: 80vh;
-        flex-grow: 1;
-
-    }
-
-    footer {
-        height: 10vh;
-    }
     
     h1 {
         color: whitesmoke;
@@ -26,7 +13,7 @@
     
     .big-banner {
         background-image: url('../img/retro.png');
-        height: 1000px;
+        height: 900px;
         width: 100%;
         margin-bottom: 0;
         background-size: cover;
@@ -41,7 +28,7 @@
     [class*="col-"] {
         padding-top: 20px;
         padding-bottom: 10px;
-        background-color: white;
+        background-color: mediumslateblue;
         border: 1px solid rgb(176, 185, 192);
     }
     
@@ -60,22 +47,9 @@
     
     p {
         padding-bottom: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
     } 
-    
-    footer {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        position:sticky;
-        left: 0;
-        bottom: 10;
-        width: 100%;
-        text-align: center;
-    }
-    
-    footer p {
-        padding-top: 35px;
-        font-size: 20px;
-        color: whitesmoke;
-    }
     
     .btn {
         margin-top: 30px;
@@ -130,6 +104,12 @@
         margin-top: 50px;
         margin-left: 70px;
         margin-bottom: 50px;
+        background-color: lightblue;
+    }
+
+    .card-title{
+        color: white;
+        margin-top: 20px;
     }
     
     .divided {
@@ -152,13 +132,11 @@
             }
 
             #portfolio.big-banner {
-                background-image: url('../img/retro.png');
                 height: 1800px;
-                width: 100%;
-                margin-bottom: 0;
-                background-size: cover;
-                background-position: center; 
-                background-repeat: no-repeat;
+               }
+
+            #index.big-banner{
+                height: 800px;
             }
           }
 
