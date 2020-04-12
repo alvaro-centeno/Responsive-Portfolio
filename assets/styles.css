@@ -37,7 +37,7 @@ h3 {
     padding-bottom: 20px;
 }
 
-img {
+.me {
     display: block;
     margin: 10px auto;
     max-width: 600px;
@@ -112,3 +112,20 @@ footer p {
     background: #0a0a0a;
     color: #fff;
 }
+
+.work{
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+
+.divided {
+    display: flex;
+    align-items: center;
+  }
+  
+  .divider {
+    flex-grow: 1;
+    border-bottom: 3px solid orange;
+    margin: 5px
+  }
