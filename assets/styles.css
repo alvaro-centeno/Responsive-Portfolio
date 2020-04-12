@@ -42,7 +42,6 @@
         display: block;
         margin: 10px auto;
         max-width: 600px;
-        padding-right: 20px;
     }
     
     p {
@@ -67,8 +66,6 @@
         border-width: 1px;
         border-style: solid;
         border-color: #084461;
-        /* margin-left: 280px;
-        margin-bottom: 5px; */
     }
     
     .btn-linkedin:link, .btn-linkedin:visited {
@@ -115,34 +112,33 @@
     .divided {
         display: flex;
         align-items: center;
-      }
+    }
       
-      .divider {
+    .divider {
         flex-grow: 1;
         border-bottom: 3px solid orange;
         margin: 5px
-          }
+        }
 
-          @media only screen and (max-width: 600px) {
-            .work {
-                margin-top: 50px;
-                margin-left: 40px;
-                margin-right: 20px;
-                margin-bottom: 50px;
+@media only screen and (max-width: 600px) {
+    .work {
+        margin-top: 50px;
+        margin-left: 40px;
+        margin-right: 20px;
+        margin-bottom: 50px;
             }
 
-            #portfolio.big-banner {
-                height: 1800px;
-               }
+    #portfolio.big-banner {
+        height: 1800px;
+        }
 
-            #index.big-banner{
-                height: 800px;
-            }
-          }
+    #index.big-banner{
+        height: 800px;
+        }
+    }
 
-          @media only screen and (max-width: 768px) {
-           
-            [class*="col-"] {
-              width: 100%;
+@media only screen and (max-width: 768px) {
+        class*="col-"] {
+        width: 100%;
             }
-          }
+        }
