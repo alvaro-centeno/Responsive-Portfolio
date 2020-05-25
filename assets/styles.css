@@ -127,6 +127,12 @@ background-color: black;
         background-color: lightblue;
     }
 
+    #portPic {
+        background:rgb(242,78,97,0.8);
+        text-align: center;
+        border-radius: 5px;
+    }
+
     .card-title{
         color: white;
         margin-top: 20px;
