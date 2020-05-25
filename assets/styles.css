@@ -133,6 +133,12 @@ background-color: black;
         border-radius: 5px;
     }
 
+    .gitLink {
+        font-weight: bold;
+        font-size: 30px;
+        color: burlywood;
+    }
+
     .card-title{
         color: white;
         margin-top: 20px;
